@@ -4,7 +4,7 @@ import SocialMedia from "./SocialMedia";
 
 function Intro() {
   return (
-    <header className="lg:sticky lg:top-0 lg:flex lg:h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
+    <header className="lg:sticky lg:top-0 lg:flex lg:h-screen lg:w-[40%] lg:flex-col lg:justify-between lg:py-24">
       <div>
         <h1 className="text-4xl font-bold tracking-tight text sm:text-5xl dark:text-gray-900">
           <a href="/">Srinadh Biroji</a>
