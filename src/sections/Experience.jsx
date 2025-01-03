@@ -30,7 +30,7 @@ function Experience() {
       description:
         "Spearheaded the end-to-end modernization of the Fed Funds application, migrating it to the WF-RIA3 framework with React.js and transitioning to PCF cloud, all with a lean team. Delivered high-quality, timely results through strong cross-team collaboration and adherence to Agile best practices.",
       application: "CEO Fed Funds",
-      appLink: "https://www.wellsfargo.com/",
+      appLink: "https://wellsoffice.ceo.wellsfargo.com/",
     },
     {
       doj: "DEC 2018",
@@ -43,7 +43,7 @@ function Experience() {
       description:
         "Played a key role in driving the success of critical features for The Hanover Insurance, consistently delivering high-quality, SonarQube-compliant solutions. Led and mentored the team, taking full ownership of projects and ensuring seamless execution to meet business goals and elevate overall performance.",
       application: "Hanover",
-      appLink: "https://www.hanover.com/",
+      appLink: "https://registration.hanover.com/",
     },
     {
       doj: "JUL 2017",
@@ -97,7 +97,7 @@ function Experience() {
               <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                 <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-gray-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg dark:lg:group-hover:bg-gray-300/20"></div>
                 <header
-                  className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-mint-800 dark:text-gray-800 sm:col-span-2"
+                  className="z-10 my-2 text-xs font-semibold uppercase tracking-wide text-mint-800 dark:text-gray-800 sm:col-span-2"
                   aria-label={tenureAriaLabel(experience)}
                 >
                   {tenureString(experience)}
@@ -107,7 +107,7 @@ function Experience() {
                     <div>
                       <a
                         href={experience.appLink || "#"}
-                        className="group/link flex flex-col items-start text-base font-medium leading-tight text-mint-200 hover:text-teal-200 focus-visible:text-teal-200 dark:text-gray-900 md:flex-row md:items-baseline lg:flex-row lg:items-baseline"
+                        className="group/link hover:text-sagaGreen focus-visible:text-sagaGreen flex flex-col items-start text-base font-medium leading-tight text hover:font-semibold focus-visible:font-semibold dark:text-gray-900 md:flex-row md:items-baseline lg:flex-row lg:items-baseline"
                         target="_blank"
                         rel="noreferrer noopener"
                         aria-label="#"
@@ -131,7 +131,7 @@ function Experience() {
                       </a>
                     </div>
                   </h3>
-                  <p className="mt-2 text-sm leading-normal text-mint-800 dark:text-gray-700">
+                  <p className="mt-2 text-sm leading-relaxed tracking-wide text-mint-800 dark:text-gray-700">
                     {experience.description}
                   </p>
                   <ul
@@ -140,7 +140,7 @@ function Experience() {
                   >
                     {experience.languages.map((language, index) => (
                       <li key={index} className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 dark:bg-gray-800/10 dark:text-gray-800">
+                        <div className="bg-indigo/40 border-royalBlue flex items-center rounded-full px-3 py-1 text-xs font-medium leading-5 text dark:bg-gray-800/10 dark:text-gray-800">
                           {language}
                         </div>
                       </li>
@@ -151,6 +151,19 @@ function Experience() {
             </li>
           ))}
         </ol>
+        <div className="mt-12">
+          <a
+            href="/#"
+            className="group/link inline-flex items-baseline text-base font-medium leading-tight text hover:font-semibold hover:text-mint-100 focus-visible:font-semibold focus-visible:text-mint-100 dark:text-gray-900"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="View Full Résumé (opens in a new tab)"
+          >
+            <span>
+              View Full <span className="inline-block">Résumé{arrowSVG}</span>
+            </span>
+          </a>
+        </div>
       </div>
     </>
   );

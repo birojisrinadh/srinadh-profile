@@ -7,12 +7,16 @@ export default {
       colors: {
         midnight: "#0f172a",
         lightGray: "#e7e7e9",
-        primary: "#c6dad6", 
+        primary: "#c6dad6",
+        indigo: "#38bdf8",
+        royalBlue: "#2563eb",
+        charcoal: "#374151",
       },
       textColor: {
         transparent: "transparent",
         current: "currentColor",
         DEFAULT: "#c6dad6", // default text color
+        sagaGreen: "#c6dad6",
         mint: {
           100: "#dce8e6",
           200: "#d7e5e2",
