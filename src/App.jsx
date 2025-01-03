@@ -1,6 +1,7 @@
 import About from "./sections/About";
 import Experience from "./sections/Experience";
 import Intro from "./sections/Intro";
+import Projects from "./sections/Projects";
 
 function App() {
   return (
@@ -23,8 +24,12 @@ function App() {
             >
               <Experience />
             </section>
-            <section id="projects" className="dark:text-gray-800">
-              Projects
+            <section
+              id="projects"
+              className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+              aria-label="Projects created by me"
+            >
+              <Projects />
             </section>
             <section id="contact" className="dark:text-gray-800">
               Contact

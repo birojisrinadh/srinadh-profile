@@ -40,7 +40,7 @@ function About() {
           . More recently, I've been aligning my skills with industry trends,
           gaining experience with cloud platforms like{" "}
           <span className="font-bold text dark:text-gray-900">
-            PCF, OpenShift, and Azure
+            PCF, OpenShift, <span className="font-normal">and</span> Azure
           </span>{" "}
           to design, deploy, and manage scalable, resilient applications in
           modern cloud-native environments.
