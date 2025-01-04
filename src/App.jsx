@@ -1,5 +1,7 @@
 import About from "./sections/About";
+import Contact from "./sections/Contact";
 import Experience from "./sections/Experience";
+import Footer from "./sections/Footer";
 import Intro from "./sections/Intro";
 import Projects from "./sections/Projects";
 
@@ -31,10 +33,14 @@ function App() {
             >
               <Projects />
             </section>
-            <section id="contact" className="dark:text-gray-800">
-              Contact
+            <section
+              id="contact"
+              className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+              aria-label="Contact me"
+            >
+              <Contact />
             </section>
-            <footer></footer>
+            <Footer />
           </main>
         </div>
       </div>

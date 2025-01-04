@@ -64,7 +64,7 @@ function Projects() {
                   <h3>
                     <a
                       href={project.liveLink}
-                      className="hover:text-sagaGreen focus-visible:text-sagaGreen group/link inline-flex items-baseline text-base font-medium leading-tight text hover:font-semibold focus-visible:font-semibold dark:text-gray-900"
+                      className="group/link inline-flex items-baseline text-base font-medium leading-tight text hover:font-semibold hover:text-sagaGreen focus-visible:font-semibold focus-visible:text-sagaGreen dark:text-gray-900"
                       target="_blank"
                       rel="noreferrer noopener"
                       aria-label="#"
@@ -76,7 +76,7 @@ function Projects() {
                       </span>
                     </a>
                   </h3>
-                  <p className="mt-2 text-sm leading-normal dark:text-gray-700">
+                  <p className="mt-2 text-sm leading-relaxed tracking-wide text-mint-800 dark:text-gray-700">
                     {project.description}
                   </p>
                   <a
@@ -86,8 +86,8 @@ function Projects() {
                     rel="noreferrer noopener"
                     aria-label=""
                   >
-                    {githubIconSVG} Link
-                    <span className="absolute inset-x-0 bottom-0 h-[1px] origin-left scale-x-0 transform bg-current transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
+                    {githubIconSVG}Source
+                    <span className="absolute -inset-x-0.5 bottom-0 h-[1px] origin-left scale-x-0 transform bg-current transition-transform duration-300 ease-out group-hover:scale-x-105"></span>
                   </a>
                   <ul
                     className="flex flex-wrap"
@@ -95,7 +95,7 @@ function Projects() {
                   >
                     {project.techStack.map((tech, index) => (
                       <li key={index} className="mr-1.5 mt-2">
-                        <div className="bg-indigo/40 border-royalBlue flex items-center rounded-full px-3 py-1 text-xs font-medium leading-5 text dark:bg-gray-800/10 dark:text-gray-800">
+                        <div className="flex items-center rounded-full border-royalBlue bg-indigo/40 px-3 py-1 text-xs font-medium leading-5 text dark:bg-gray-800/10 dark:text-gray-800">
                           {tech}
                         </div>
                       </li>

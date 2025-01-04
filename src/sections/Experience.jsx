@@ -107,7 +107,7 @@ function Experience() {
                     <div>
                       <a
                         href={experience.appLink || "#"}
-                        className="group/link hover:text-sagaGreen focus-visible:text-sagaGreen flex flex-col items-start text-base font-medium leading-tight text hover:font-semibold focus-visible:font-semibold dark:text-gray-900 md:flex-row md:items-baseline lg:flex-row lg:items-baseline"
+                        className="group/link flex flex-col items-start text-base font-medium leading-tight text hover:font-semibold hover:text-sagaGreen focus-visible:font-semibold focus-visible:text-sagaGreen dark:text-gray-900 md:flex-row md:items-baseline lg:flex-row lg:items-baseline"
                         target="_blank"
                         rel="noreferrer noopener"
                         aria-label="#"
@@ -124,7 +124,8 @@ function Experience() {
                           <>
                             <span className="mx-3 hidden h-px w-3 bg-gray-100 pb-0.5 dark:bg-gray-800 md:block lg:block"></span>
                             <span className="inline-block pt-1.5">
-                              {experience.application} {arrowSVG}
+                              {experience.application}
+                              {arrowSVG}
                             </span>
                           </>
                         )}
@@ -140,7 +141,7 @@ function Experience() {
                   >
                     {experience.languages.map((language, index) => (
                       <li key={index} className="mr-1.5 mt-2">
-                        <div className="bg-indigo/40 border-royalBlue flex items-center rounded-full px-3 py-1 text-xs font-medium leading-5 text dark:bg-gray-800/10 dark:text-gray-800">
+                        <div className="flex items-center rounded-full border-royalBlue bg-indigo/40 px-3 py-1 text-xs font-medium leading-5 text dark:bg-gray-800/10 dark:text-gray-800">
                           {language}
                         </div>
                       </li>

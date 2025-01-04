@@ -5,8 +5,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        midnight: "#0f172a",
-        lightGray: "#e7e7e9",
+        midnight: "#09304a",
+        lightGray: "#ffe7c9",
         primary: "#c6dad6",
         indigo: "#38bdf8",
         royalBlue: "#2563eb",
@@ -15,14 +15,14 @@ export default {
       textColor: {
         transparent: "transparent",
         current: "currentColor",
-        DEFAULT: "#c6dad6", // default text color
-        sagaGreen: "#c6dad6",
+        DEFAULT: "#fdfefe", // default text color
+        sagaGreen: "#fdfefe",
         mint: {
           100: "#dce8e6",
           200: "#d7e5e2",
           300: "#d1e1de",
           400: "#cbddda",
-          500: "#c6dad6",
+          500: "#fdfefe",
           600: "#b2c4c0",
           700: "#9eaeab",
           800: "#8a9895",
