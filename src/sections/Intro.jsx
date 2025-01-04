@@ -6,10 +6,10 @@ function Intro() {
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:h-screen lg:w-[40%] lg:flex-col lg:justify-between lg:py-24">
       <div>
-        <h1 className="text-4xl font-bold tracking-tight text sm:text-5xl dark:text-gray-900">
+        <h1 className="text-4xl font-bold tracking-tight text-lightGray dark:text-midnight sm:text-5xl">
           <a href="/">Srinadh Biroji</a>
         </h1>
-        <h2 className="mt-3 text-lg font-semibold tracking-tight sm:text-xl dark:text-gray-800">
+        <h2 className="mt-3 text-lg font-semibold tracking-tight dark:text-gray-800 sm:text-xl">
           Full Stack Engineer
         </h2>
         <p className="mt-4 max-w-xs leading-normal tracking-normal text-slate-400 dark:text-gray-800">

@@ -45,12 +45,12 @@ function App() {
         </div>
       </div>
       <button
-        className="fixed right-6 top-16 text backdrop-blur dark:text-gray-900 lg:right-16"
+        className="z-30 fixed right-6 top-14 text backdrop-blur dark:text-gray-900 md:right-8 md:top-16 lg:right-10 lg:top-8 2xl:right-32 2xl:top-20"
         onClick={() => document.documentElement.classList.toggle("dark")}
       >
         <svg
           fill="currentColor"
-          className="h-8 w-8 hover:text-mint-100 dark:hover:text-black"
+          className="h-6 w-6 hover:text-lightGray dark:hover:text-midnight md:h-8 md:w-8 lg:h-10 lg:w-10 2xl:h-12 2xl:w-12"
           viewBox="0 0 35 35"
           data-name="Layer 2"
           id="Layer_2"
