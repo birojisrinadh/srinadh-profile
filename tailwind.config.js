@@ -43,7 +43,7 @@ export default {
       backgroundImage: {
         "cursor-light": `radial-gradient(
           circle at 300px 300px,
-          rgba(56, 189, 248, 0.25) 0%,
+          rgba(56, 189, 248, 0.15) 0%,
           rgba(56, 189, 248, 0.075) 40%,
           rgba(56, 189, 248, 0.0125) 70%,
           rgba(56, 189, 248, 0) 100%

@@ -45,7 +45,7 @@ const MouseFollow = () => {
 
   return (
     <div
-      className="bg-cursor-light dark:bg-cursor-dark pointer-events-none fixed z-50 rounded-full transition-opacity duration-500"
+      className="md:bg-cursor-light md:dark:bg-cursor-dark pointer-events-none fixed z-50 rounded-full transition-opacity duration-500"
       style={{
         left: cursorStyle.left,
         top: cursorStyle.top,

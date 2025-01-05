@@ -16,24 +16,27 @@ function App() {
           <main id="content" className="pt-24 lg:w-[60%] lg:py-24">
             <section
               id="about"
-              className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+              className="relative mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
               aria-label="About me"
             >
               <About />
+              <span className="absolute inset-x-48 -bottom-16 hidden h-1 scale-x-50 rounded-full bg-indigo/10 dark:bg-gray-800/10 md:block"></span>
             </section>
             <section
               id="experience"
-              className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+              className="relative mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
               aria-label="Work experience"
             >
               <Experience />
+              <span className="absolute inset-x-48 -bottom-16 hidden h-1 scale-x-50 rounded-full bg-indigo/10 dark:bg-gray-800/10 md:block"></span>
             </section>
             <section
               id="projects"
-              className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+              className="relative mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
               aria-label="Projects created by me"
             >
               <Projects />
+              <span className="absolute inset-x-48 -bottom-16 hidden h-1 scale-x-50 rounded-full bg-indigo/10 dark:bg-gray-800/10 md:block"></span>
             </section>
             <section
               id="contact"

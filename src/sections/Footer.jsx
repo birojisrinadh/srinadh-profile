@@ -6,10 +6,10 @@ function Footer() {
       version="1.0"
       id="Layer_1"
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
       viewBox="0 0 64 64"
-      enable-background="new 0 0 64 64"
-      xml:space="preserve"
+      enableBackground="new 0 0 64 64"
+      xmlSpace="preserve"
       fill="#000000"
       className="inline-block h-3.5 w-4"
     >
@@ -55,24 +55,24 @@ function Footer() {
         From code to pixels, brought to life with{" "}
         <a
           href="https://react.dev/"
-          class="group relative font-medium text hover:text-mint-100 focus-visible:text-mint-100 dark:text-gray-800 dark:hover:text-gray-900 dark:focus-visible:text-gray-900"
+          className="group relative font-medium text hover:text-mint-100 focus-visible:text-mint-100 dark:text-gray-800 dark:hover:text-gray-900 dark:focus-visible:text-gray-900"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="React (opens in a new tab)"
         >
           React
-          <span class="absolute inset-x-0 bottom-0 h-[1px] origin-left scale-x-0 transform bg-current transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
+          <span className="absolute inset-x-0 bottom-0 h-[1px] origin-left scale-x-0 transform bg-current transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
         </a>{" "}
         and{" "}
         <a
           href="https://tailwindcss.com/"
-          class="group relative font-medium text hover:text-mint-100 focus-visible:text-mint-100 dark:text-gray-800 dark:hover:text-gray-900 dark:focus-visible:text-gray-900"
+          className="group relative font-medium text hover:text-mint-100 focus-visible:text-mint-100 dark:text-gray-800 dark:hover:text-gray-900 dark:focus-visible:text-gray-900"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Next.js (opens in a new tab)"
         >
           Tailwind CSS
-          <span class="absolute inset-x-0 bottom-0 h-[1px] origin-left scale-x-0 transform bg-current transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
+          <span className="absolute inset-x-0 bottom-0 h-[1px] origin-left scale-x-0 transform bg-current transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
         </a>{" "}
         by Srinadh Biroji. Adapted with {heartSVG} from India -{" "}
         <span className="font-medium text-mint-600 dark:text-gray-700">

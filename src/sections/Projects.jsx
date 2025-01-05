@@ -26,8 +26,8 @@ function Projects() {
       fill="none"
       stroke="currentColor"
       strokeWidth="2"
-      strokeLinecapap="round"
-      strokeLinejoinoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       className="mr-2 h-5 w-5"
     >
       <title>GitHub</title>
