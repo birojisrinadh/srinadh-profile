@@ -1,3 +1,4 @@
+import MouseFollow from "./components/MouseFollow";
 import About from "./sections/About";
 import Contact from "./sections/Contact";
 import Experience from "./sections/Experience";
@@ -8,6 +9,7 @@ import Projects from "./sections/Projects";
 function App() {
   return (
     <div className="relative">
+      <MouseFollow />
       <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-16 lg:py-0">
         <div className="lg:flex lg:justify-between lg:gap-4">
           <Intro />
@@ -45,7 +47,7 @@ function App() {
         </div>
       </div>
       <button
-        className="z-30 fixed right-6 top-14 text backdrop-blur dark:text-gray-900 md:right-8 md:top-16 lg:right-10 lg:top-8 2xl:right-32 2xl:top-20"
+        className="fixed right-6 top-14 z-30 text backdrop-blur dark:text-gray-900 md:right-8 md:top-16 lg:right-10 lg:top-8 2xl:right-32 2xl:top-20"
         onClick={() => document.documentElement.classList.toggle("dark")}
       >
         <svg

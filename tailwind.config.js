@@ -40,6 +40,27 @@ export default {
           900: "#262e3f",
         },
       },
+      backgroundImage: {
+        "cursor-light": `radial-gradient(
+          circle at 300px 300px,
+          rgba(56, 189, 248, 0.25) 0%,
+          rgba(56, 189, 248, 0.075) 40%,
+          rgba(56, 189, 248, 0.0125) 70%,
+          rgba(56, 189, 248, 0) 100%
+        )`,
+        "cursor-dark": `radial-gradient(
+          circle at 300px 300px,
+          rgba(255, 180, 0, 0.25) 0%,  /* Orange with lower opacity */
+          rgba(255, 180, 0, 0.075) 40%,  /* Orange with even lower opacity */
+          rgba(255, 180, 0, 0.0125) 70%, /* Orange with very low opacity */
+          rgba(255, 180, 0, 0) 100%    /* Transparent */
+        )`,
+      },
+    },
+  },
+  variants: {
+    extend: {
+      backgroundImage: ["dark"],
     },
   },
   plugins: [],
