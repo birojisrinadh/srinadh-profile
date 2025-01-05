@@ -11,6 +11,8 @@ export default {
         indigo: "#38bdf8",
         royalBlue: "#2563eb",
         charcoal: "#374151",
+        fluidBlue: "rgba(56, 189, 248, 0.5)",
+        goldenRod: "#c18500",
       },
       textColor: {
         transparent: "transparent",
