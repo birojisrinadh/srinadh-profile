@@ -1,4 +1,5 @@
 import React from "react";
+import srinadhBirojiResume from "../assets/docs/Srinadh_Biroji_Resume.pdf";
 
 function Experience() {
   const arrowSVG = (
@@ -154,7 +155,7 @@ function Experience() {
         </ol>
         <div className="mt-12">
           <a
-            href="/#"
+            href={srinadhBirojiResume}
             className="group/link inline-flex items-baseline text-base font-medium leading-tight text hover:font-semibold hover:text-mint-100 focus-visible:font-semibold focus-visible:text-mint-100 dark:text-gray-900"
             target="_blank"
             rel="noreferrer noopener"
